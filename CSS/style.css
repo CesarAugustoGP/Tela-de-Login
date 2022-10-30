@@ -1,0 +1,117 @@
+* {
+  background: #17181e;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  caret-color: white;
+}
+
+main {
+  text-align: center;
+  width: 480px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 72px;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+
+.connect {
+  box-sizing: border-box;
+  border: 4px solid #30303d;
+  border-radius: 18px;
+  padding-left: 94px;
+  padding-right: 23px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  gap: 12px;
+  width: 100%;
+}
+
+.texto {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.login-input {
+  padding-left: 28px;
+  padding-right: 28px;
+  text-align: start;
+  width: 100%;
+  left: 512px;
+  top: 544px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  border: 4px solid #30303d;
+  border-radius: 18px;
+}
+
+.sign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #b72eb2;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  padding: 12px 138px 12px 128px;
+  width: 100%;
+}
+
+.connections {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 56px;
+  width: 412px;
+}
+
+.or {
+  margin-bottom: 36px;
+}
+
+.strong {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin-left: 16px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
